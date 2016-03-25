@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_view_item_height" />
+    <Space
+        android:id="@+id/static_empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_view_item_height" />
+</LinearLayout>

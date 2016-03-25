@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ListViewHeader</string>
+    <string name="foo">FOO</string>
+    <string name="bar">BAR</string>
+</resources>

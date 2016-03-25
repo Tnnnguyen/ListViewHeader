@@ -1,0 +1,30 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+    </ListView>
+
+    <TextView
+        android:id="@+id/foo_textview"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_view_item_height"
+        android:paddingLeft="@dimen/list_view_text_left_padding"
+        android:gravity="center_vertical"
+        android:background="@color/colorAccent"
+        android:text="@string/foo" />
+
+    <TextView
+        android:id="@+id/static_view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_view_item_height"
+        android:paddingLeft="@dimen/list_view_text_left_padding"
+        android:gravity="center_vertical"
+        android:background="@color/colorAccent"
+        android:text="@string/bar"/>
+
+</FrameLayout>
